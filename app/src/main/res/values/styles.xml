@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Coloquei a core via hexadecimal. -->
+        <item name="colorPrimary">#003399</item>
+        <item name="colorPrimaryDark">#003399</item>
+        <item name="colorAccent">#003399</item>
+    </style>
+
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.android.animaisvenenosos.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="Aprenda sobre Cinco animais que você deve evitar!"
+                android:textColor="#000000"
+                android:textSize="33dp"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+
+                />
+
+            <ImageView
+                android:src="@drawable/danger"
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+
+                android:layout_gravity="center_horizontal"/>
+
+
+
+                <Button
+                    android:text="Água Viva Mortal"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="50dp"
+                    android:onClick="irPraAguaViva"
+                    />
+
+                <Button
+                    android:text="Cobra Feroz"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="50dp"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+
+
+
+                <Button
+                    android:text="caracol Marbled Cone"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="50dp"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+                <Button
+                    android:text="Polvos De Aneis Azuis"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="50dp"
+                    />
+
+
+
+
+            <Button
+                android:text="DeathStalkerScorpion"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="50dp"
+
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
