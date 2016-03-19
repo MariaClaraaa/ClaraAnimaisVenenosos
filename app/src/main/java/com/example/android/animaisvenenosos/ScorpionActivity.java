@@ -5,12 +5,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class AguaVivaActivity extends AppCompatActivity {
+public class ScorpionActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_agua_viva);
+        setContentView(R.layout.activity_scorpion);
     }
 
     /**Método para mostrar ou esconder o o texto sobre o animal venenoso
@@ -18,9 +18,9 @@ public class AguaVivaActivity extends AppCompatActivity {
      */
 
     public void mostrarTexto(View view){
-        TextView vida = (TextView) findViewById(R.id.texto_agua_viva);
+        TextView vida = (TextView) findViewById(R.id.texto_scorpion);
         if(vida.getText().equals("")){
-            vida.setText(R.string.AguaVivaMortal);
+            vida.setText(R.string.DeathStalkerScorpion);
         }else{
             vida.setText("");
         }

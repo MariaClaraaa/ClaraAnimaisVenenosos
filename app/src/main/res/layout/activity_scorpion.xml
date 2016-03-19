@@ -3,14 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.animaisvenenosos.CobraActivity">
+    tools:context="com.example.android.animaisvenenosos.ScorpionActivity">
 
     --Scroll pra permitir que eu use textos grandes--
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/cobra"
+        android:background="@drawable/stalker"
         android:alpha="0.8">
         <LinearLayout
             android:layout_width="match_parent"
@@ -36,7 +36,7 @@
                 android:text=""
                 android:textSize="20dp"
                 android:textColor="#ffffff"
-                android:id="@+id/texto_cobra"
+                android:id="@+id/texto_scorpion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 

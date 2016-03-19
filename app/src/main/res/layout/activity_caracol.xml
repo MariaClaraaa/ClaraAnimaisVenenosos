@@ -3,14 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.animaisvenenosos.CobraActivity">
+    tools:context="com.example.android.animaisvenenosos.CaracolActivity">
 
     --Scroll pra permitir que eu use textos grandes--
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/cobra"
+        android:background="@drawable/caracol"
         android:alpha="0.8">
         <LinearLayout
             android:layout_width="match_parent"
@@ -23,7 +23,7 @@
             <CheckBox
                 android:id="@+id/texto_checkbox"
                 android:text="Ver sobre?"
-                android:textColor="#000000"
+                android:textColor="#ffffff"
                 android:textSize="35dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -36,7 +36,7 @@
                 android:text=""
                 android:textSize="20dp"
                 android:textColor="#ffffff"
-                android:id="@+id/texto_cobra"
+                android:id="@+id/texto_caracol"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
@@ -50,6 +50,5 @@
 
 
     </ScrollView>
-
 
 </RelativeLayout>

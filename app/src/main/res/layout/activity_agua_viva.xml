@@ -5,6 +5,8 @@
     android:layout_height="match_parent"
     tools:context="com.example.android.animaisvenenosos.AguaVivaActivity">
 
+    --Scroll pra permitir que eu use textos grandes--
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -15,6 +17,9 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            --Check box pra que o usuário decida se quer
+            ver o texto ou não--
+
             <CheckBox
                 android:id="@+id/texto_checkbox"
                 android:text="Ver sobre?"
@@ -24,6 +29,8 @@
                 android:layout_height="wrap_content"
                 android:onClick="mostrarTexto"
                 />
+
+            --Caixa de texto vazia ue vou preencher com o texto--
 
             <TextView
                 android:text=""

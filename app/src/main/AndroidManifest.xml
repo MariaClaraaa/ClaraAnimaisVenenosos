@@ -15,9 +15,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AguaVivaActivity"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".CobraActivity"
+        <activity
+            android:name=".AguaVivaActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CobraActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CaracolActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PolvoActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ScorpionActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".ReferenciasActivity"
             android:parentActivityName=".MainActivity"></activity>
     </application>
 
