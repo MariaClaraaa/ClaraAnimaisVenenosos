@@ -1,0 +1,5 @@
+A ideia do projeto:
+
+Partindo da ideia de ensinar cinco coisas a alguém, a ideia do meu projeto é: "Ensinar a alguém sobre cinco animais
+diferentes, os mais venenosos do mundo, criando um aplicativo de curiosidades e informativo ao mesmo tempo da melhor
+forma possível para o usuário,visando oferecer a melhor experiência possível e um aumento de conhecimento.
